@@ -1,0 +1,28 @@
+[ 2015-07-21T15:20:50+08:00 ] 14.147.95.226 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-21T15:21:18+08:00 ] 14.147.95.226 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-21T15:21:19+08:00 ] 14.147.95.226 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-21T15:21:29+08:00 ] 14.147.95.226 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-21T15:26:49+08:00 ] 14.147.95.226 /blueflame/index.php?s=/admin/think/lists/model/message.html
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT ``,`id` FROM `blue_message` ORDER BY id DESC LIMIT 0,10  
+
+[ 2015-07-21T16:54:37+08:00 ] 14.147.95.226 /blueflame/index.php?s=/home/index/message
+ERR: 1048:Column 'sex' cannot be null
+ [ SQL语句 ] : INSERT INTO `blue_message` (`company`,`username`,`sex`,`phone`,`email`,`content`) VALUES ('','',null,'','','')
+
+[ 2015-07-21T22:29:54+08:00 ] 183.5.250.161 /blueflame/index.php?s=/home/index/message
+ERR: 1048:Column 'sex' cannot be null
+ [ SQL语句 ] : INSERT INTO `blue_message` (`company`,`username`,`sex`,`phone`,`email`,`content`) VALUES ('啦啦啦啦啦','',null,'','','')
+

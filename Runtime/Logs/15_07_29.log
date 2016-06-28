@@ -1,0 +1,12 @@
+[ 2015-07-29T09:00:20+08:00 ] 14.147.88.195 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-29T17:13:11+08:00 ] 14.147.94.202 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-29T20:15:46+08:00 ] 183.5.249.224 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+

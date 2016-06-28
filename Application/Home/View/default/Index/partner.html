@@ -1,0 +1,31 @@
+<extend name="Base/common"/>
+
+<block name="header">
+<style type="text/css">
+
+</style>
+
+	<div class="container par">
+    <h3 class="txt">品牌战略合作伙伴</h3>
+    <div class="row">
+
+        <volist name="partner" id="to">
+        <div class="col-xs-6 col-md-3">
+            <div class="partner">
+                    <div class="caption">
+                        <h5>{$to.title}</h5>
+                    </div>
+                
+                <img class="img-rounded" src="__ROOT__{$to.logo|get_cover='path'}"  alt="{$to.title}">
+               
+  
+            </div>
+        </div>
+        </volist>
+
+    </div>
+
+    <div class="page">{$page}</div> 
+</div>
+
+</block>

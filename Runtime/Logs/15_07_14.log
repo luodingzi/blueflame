@@ -1,0 +1,46 @@
+[ 2015-07-14T11:15:25+08:00 ] 14.147.95.54 /blueflame/index.php?s=/home/index/test
+ERR: 1146:Table 'jie.blue_case' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_case`
+ERR: 1146:Table 'jie.blue_case' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_case` ORDER BY createtime desc 
+
+[ 2015-07-14T11:16:34+08:00 ] 14.147.95.54 /blueflame/index.php?s=/home/index/test
+ERR: 1146:Table 'jie.blue_case' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_case`
+ERR: 1146:Table 'jie.blue_case' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_case` ORDER BY createtime desc 
+
+[ 2015-07-14T11:17:11+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-14T11:18:18+08:00 ] 14.147.95.54 /blueflame/index.php?s=/home/index/test
+ERR: 1146:Table 'jie.blue_case' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_case`
+ERR: 1146:Table 'jie.blue_case' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_case` ORDER BY createtime desc 
+
+[ 2015-07-14T11:18:25+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-14T11:24:02+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-14T11:24:18+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-14T11:24:30+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-14T16:15:51+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-14T16:18:25+08:00 ] 14.147.95.54 /blueflame/index.php?s=/admin/model/generate.html
+ERR: 1062:Duplicate entry '7' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `blue_model` (`id`,`name`,`title`,`extend`,`relation`,`need_pk`,`field_sort`,`field_group`,`attribute_list`,`template_list`,`template_add`,`template_edit`,`list_grid`,`list_row`,`search_key`,`search_list`,`create_time`,`update_time`,`status`,`engine_type`) VALUES (7,'cases','具体案例',0,'',1,'{\"1\":[\"45\",\"44\",\"42\",\"43\"]}','1:基础','','','','','id:编号\r\ntitle:案例名称\r\nid:操作:[EDIT]|编辑',10,'','',1436845579,1436845613,1,'MyISAM')
+

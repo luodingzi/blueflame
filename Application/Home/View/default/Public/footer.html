@@ -1,0 +1,82 @@
+
+    <!-- 底部-->
+
+    <!-- 联系 -->
+    <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title" id="modal-label">给我们留言</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <form class="form-horizontal" action="index.php?s=/home/index/message" method="post">
+                      <div class="form-group">
+                        <label for="inputcompany3" class="col-sm-2 control-label">公司名称</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputcompany3" name="company" placeholder="公司名称">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputname3" class="col-sm-2 control-label">你的名字</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputname3" name="username" placeholder="姓名">
+                        </div>
+                      </div>
+                     <div class="form-group">
+                        <label for="inputname3" class="col-sm-2 control-label">性别</label>
+                        <div class="col-sm-10">
+                          <input type="radio" name="sex" id="sex" value="先生"> 先生
+                          <input type="radio" name="sex" id="sex" value="女士"> 女士
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputphone3" class="col-sm-2 control-label">联系电话</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputphone3" name="phone" placeholder="联系电话">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputemail3" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputemail3" name="email" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputemail3" class="col-sm-2 control-label">留言内容</label>
+                        <div class="col-sm-10">
+                          <textarea class="form-control" name="content" rows="3"></textarea>
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button type="submit" name="sub" class="btn btn-default">提交</button>
+                           <button type="reset" name="reset" class="btn btn-default">重置</button>
+                        </div>
+                      </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p style="text-align:center;color:#fff;"><a href="http://www.cbf.com.cn/index.php?s=/home/index/content/id/1.html">联系我们</a> | <a href="" data-toggle="modal" data-target="#message">给我们留言</a> |<a href="http://www.cbf.com.cn/sitemap.html">网站地图</a> | <a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备12091022号-2</a> | Copyright &copy; 2014 <a href="http://www.cbf.com.cn" >广州蓝火文化传播有限公司</a> 版权所有</p>
+    </footer>
+
+<include file="Public/var"/>
+<block name="script"></block> <!-- 用于加载js代码 -->
+<!-- 页面footer钩子，一般用于加载插件JS文件和JS代码 -->
+{:hook('pageFooter', 'widget')}
+<div class="hidden"><!-- 用于加载统计代码等隐藏元素 -->
+	<block name="hidden"></block>
+</div>

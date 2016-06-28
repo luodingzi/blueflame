@@ -1,0 +1,20 @@
+<extend name="Base/common"/>
+
+<block name="header">
+
+<div class="container product">
+    <h3 >{$products.title}</h3>
+    <p>{$products.intro}</p>
+        <if condition="$pre_products['id'] eq '' "><h4>上一篇：没有了</h4>
+        <else /><h4>上一篇：<a href="__URL__/product/id/{$pre_products.id}.html">{$pre_products.title}</a></h4>
+     </if>
+
+    <if condition="$next_products['id'] eq '' "><h4>下一篇：没有了</h4>
+        <else /><h4>下一篇：<a href="__URL__/product/id/{$next_products.id}.html">{$next_products.title}</a></h4>
+     </if>
+    <h4><a  href="__URL__/media.html">返回列表</a></h4>
+</div>
+<div class="container">
+
+</div>
+</block>

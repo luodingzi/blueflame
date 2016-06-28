@@ -1,0 +1,24 @@
+<extend name="Base/common"/>
+
+<block name="header">
+
+	<div class="container medias">
+    <h3 class="txt">影视作品赏</h3>
+    <div class="row">
+
+        <volist name="list" id="vo">
+        <div class="col-xs-6 col-md-3">
+            <a href="__URL__/product/id/{$vo.id}.html" class="thumbnail">
+                <div class="mda"><img src="__ROOT__{$vo.thumb|get_cover='path'}" style="height: 180px; width: 100%; display: block;" alt="{$vo.title}"></div>
+            </a>
+            <div class="caption">
+                <h4>{$vo.title|strip_tags|msubstr=0,15}</h4>
+            </div>  
+        </div>
+        </volist>
+
+    </div>
+    <div class="page">{$page}</div> 
+</div>
+
+</block>

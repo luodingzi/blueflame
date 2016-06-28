@@ -1,0 +1,28 @@
+[ 2015-07-24T08:37:54+08:00 ] 14.147.94.13 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-24T10:51:35+08:00 ] 14.147.94.13 /blueflame/index.php?s=/home/index/message
+ERR: 1048:Column 'sex' cannot be null
+ [ SQL语句 ] : INSERT INTO `blue_message` (`company`,`username`,`sex`,`phone`,`email`,`content`) VALUES ('','',null,'','','')
+
+[ 2015-07-24T14:27:13+08:00 ] 14.147.94.13 /blueflame/index.php?s=/home/index/media.html
+ERR: 1146:Table 'jie.blue_media' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_media`
+ERR: 1146:Table 'jie.blue_media' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_media` WHERE ( id>0 ) ORDER BY addtime desc LIMIT 0,4  
+ERR: 1146:Table 'jie.blue_media' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_media` WHERE ( id>0 ) LIMIT 1  
+
+[ 2015-07-24T14:31:03+08:00 ] 14.147.94.13 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-24T15:20:14+08:00 ] 14.147.94.13 /blueflame/index.php?s=/home/index/media.html
+ERR: 1146:Table 'jie.blue_media' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_media`
+ERR: 1146:Table 'jie.blue_media' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_media` WHERE ( id>0 ) ORDER BY addtime desc LIMIT 0,8  
+ERR: 1146:Table 'jie.blue_media' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_media` WHERE ( id>0 ) LIMIT 1  
+

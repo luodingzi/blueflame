@@ -1,0 +1,28 @@
+<extend name="Base/common"/>
+
+<block name="header">
+<style type="text/css">
+	.newcase{
+		margin-top: 25px;
+		color:#fff;
+	}
+	.txt{
+		margin-top: 10px;
+	}
+</style>
+		<div class="container newcase">
+                <volist name="newcase_data" id="vo">
+                <div class="media">
+                    <a class="pull-left" href="http://jie.amorstory.cn/blueflame/index.php?s=/home/NewCase/product/id/{$vo.id}.html">
+                        <img class="media-object" style="width:200px;" src="__ROOT__{$vo.thumb|get_cover='path'}" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="http://jie.amorstory.cn/blueflame/index.php?s=/home/NewCase/product/id/{$vo.id}.html"><strong>{$vo.title}<if condition="$vo['new'] eq 1 ">&nbsp;<span class="label label-default">New</span><else /></if></strong></a></h4>
+                        <div class="txt">{$vo.intro|strip_tags|msubstr=0,200}</div>
+                    </div>
+                </div>
+                </volist>
+</div>
+</div>
+
+</block>

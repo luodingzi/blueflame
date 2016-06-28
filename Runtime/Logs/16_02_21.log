@@ -1,0 +1,26 @@
+[ 2016-02-21T04:26:10+08:00 ] 106.38.241.145 /index.php/home/index/product/id/index.php
+ERR: 1054:Unknown column 'index.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blue_media` WHERE ( id<index.php ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'index.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blue_media` WHERE ( id>index.php ) ORDER BY id asc LIMIT 1  
+
+[ 2016-02-21T04:31:20+08:00 ] 106.38.241.145 /index.php/home/index/news/id/index.php
+ERR: 1054:Unknown column 'index.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blue_news` WHERE ( id<index.php ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'index.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blue_news` WHERE ( id>index.php ) ORDER BY id asc LIMIT 1  
+
+[ 2016-02-21T04:35:05+08:00 ] 106.38.241.145 /index.php/home/index/team/p/index.php
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `blue_team` WHERE ( id>0 ) LIMIT -8,8  
+
+[ 2016-02-21T14:26:49+08:00 ] 106.38.241.145 /index.php/home/index/news/id/index.php
+ERR: 1054:Unknown column 'index.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blue_news` WHERE ( id<index.php ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'index.php' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blue_news` WHERE ( id>index.php ) ORDER BY id asc LIMIT 1  
+
+[ 2016-02-21T14:28:10+08:00 ] 106.38.241.145 /index.php/home/index/team/p/index.php
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-8,8' at line 1
+ [ SQL语句 ] : SELECT * FROM `blue_team` WHERE ( id>0 ) LIMIT -8,8  
+

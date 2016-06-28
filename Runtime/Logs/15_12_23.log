@@ -1,0 +1,15 @@
+[ 2015-12-23T15:29:40+08:00 ] 121.42.0.36 /admin/ecshopfiles.md5
+ERR: 无法加载控制器:Ecshopfiles.md5
+
+[ 2015-12-23T15:29:40+08:00 ] 121.42.0.36 /admin/help/zh_cn/database.xml
+ERR: 无法加载控制器:Help
+
+[ 2015-12-23T15:30:04+08:00 ] 121.42.0.36 /Admin/Images/southidc.css
+ERR: 无法加载控制器:Images
+
+[ 2015-12-23T15:30:07+08:00 ] 121.42.0.36 /Admin/Include/version.xml
+ERR: 无法加载控制器:Include
+
+[ 2015-12-23T15:30:09+08:00 ] 121.42.0.36 /install/style.css
+ERR: 无法加载控制器:Style.css
+

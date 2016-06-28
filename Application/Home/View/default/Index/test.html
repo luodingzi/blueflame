@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="Public/blue.ico" />
+    <title>蓝色火焰</title>
+    <link href="Public/Home/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Public/Home/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Blue Flame</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#ad-carousel">首页</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#about-modal">关于蓝火</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#join">加入我们</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#contact">联系我们</a></li>
+                <li><a href="http://weibo.com/u/2534480734" target="_blank">蓝火微博</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- 广告轮播 -->
+<div id="ad-carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <ol class="carousel-indicators">
+        <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#ad-carousel" data-slide-to="1"></li>
+        <li data-target="#ad-carousel" data-slide-to="2"></li>
+        <li data-target="#ad-carousel" data-slide-to="3"></li>
+        <li data-target="#ad-carousel" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="#" data-toggle="modal" data-target=".bs-mp-modal-lg"><img src="Public/Home/images/mp.jpg" alt="1 slide"></a>
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>蓝火名片</h1>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#" data-toggle="modal" data-target=".bs-case-modal-lg"><img src="Public/Home/images/case.jpg" alt="2 slide"></a>
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>蓝火案例</h1>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#" data-toggle="modal" data-target=".bs-news-modal-lg"><img src="Public/Home/images/news.jpg" alt="3 slide"></a>
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>新闻热报</h1>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="Public/Home/images/team.jpg" alt="4 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>精英团队</h1>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="Public/Home/images/center.jpg" alt="5 slide">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>高端品牌研究中心</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#ad-carousel" data-slide="prev"></a>
+    <a class="right carousel-control" href="#ad-carousel" data-slide="next"></a>
+</div>
+
+
+<!-- 主要内容 -->
+<div class="container summary">
+
+    <!-- 简介 -->
+    <div class="row" id="summary-container">
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target=".bs-mp-modal-lg"><img class="img-circle" src="Public/Home/images/1.jpg" alt="chrome"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target=".bs-news-modal-lg"><img class="img-circle" src="Public/Home/images/8.jpg" alt="firefox"></a>
+        </div>
+        <div class="col-md-4">
+             <a href="#" data-toggle="modal" data-target=".bs-case-modal-lg"><img class="img-circle" src="Public/Home/images/4.jpg" alt="safari"></a>
+        </div>
+    </div>
+
+    <div class="row" id="summary-container">
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target=".bs-mp-modal-lg"><img class="img-circle" src="Public/Home/images/2.jpg" alt="chrome"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target=".bs-news-modal-lg"><img class="img-circle" src="Public/Home/images/3.jpg" alt="firefox"></a>
+        </div>
+        <div class="col-md-4">
+             <a href="#" data-toggle="modal" data-target=".bs-case-modal-lg"><img class="img-circle" src="Public/Home/images/5.jpg" alt="safari"></a>
+        </div>     
+    </div>
+
+    <div class="row" id="summary-container">
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target=".bs-mp-modal-lg"><img class="img-circle" src="Public/Home/images/1.jpg" alt="chrome"></a>
+        </div>
+        <div class="col-md-4">
+            <a href="#" data-toggle="modal" data-target=".bs-news-modal-lg"><img class="img-circle" src="Public/Home/images/8.jpg" alt="firefox"></a>
+        </div>
+        <div class="col-md-4">
+             <a href="#" data-toggle="modal" data-target=".bs-case-modal-lg"><img class="img-circle" src="Public/Home/images/4.jpg" alt="safari"></a>
+        </div>
+    </div>
+
+
+    <!-- 关于 -->
+    <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title" id="modal-label">蓝火文化</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="Public/Home/images/top.jpg" >
+                    <p>1）广州4A公司，广东省广告协会专委会副秘书长单位。</p>
+                    <p>2）广东省广告创作实力十强单位。</p>
+                    <p>3）中国十强策划公司之一，两次获得中国十大策划案例金奖。</p>
+                    <p>4）由袁莹全权管理的广州蓝色火焰广告公司和广州蓝火文化传播有限公司分别获得数十个国际、国内创意奖项。中国大陆广告公司创作实力500强排名之11位，2010年获得中国十年最具创作实力单位和IAI年鉴十年最具持久创作力广告公司奖，2012年评为“2012中国最具影响力广告服务机构”。</p>
+                    <p>5）荣获首届“金凤凰”营销奖评选-首届中国诚信营销机构奖。</p>
+                    <p>6）2010被评为“十大新粤商100强”。</p>
+                    <p>7）15年中国最成功的电视媒体运营经验的积累：当前联手全国最有影响力的湖南卫视、浙江卫视、江苏卫视、东方卫视四大卫视，对传统媒体形式的全面革新。</p>
+<p>主营产品及领域</p>
+
+<p>主营产品：擅长提供创造性的整合传播全案服务，有超过十五年以上的全案服务经验；提供解决企业营销关键问题的实战策划，以及品牌培育、发展和管理的全方面解决方案。</p>
+
+<p>经营领域：乒乓战略规划咨询顾问、品牌整合营销传播策划与创作代理、传播运动（影视摄制、媒体投放、展会公关、数字营销）的全面执行服务，高端媒体——南航《精英生活》及机上小桌板的独家代理商。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系 -->
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title" id="modal-label">蓝火文化</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="Public/Home/images/top.jpg" >
+                    <h4>Address：广州市天河区天河路208号粤海天河城大厦31楼01-03</h4>
+                    <h4>Tel：+86-020-87377708</h4>
+                    <h4>Fax：+86-020-87377709</h4>
+                    <h4>Email：87377708@163.com</h4>
+
+                <a class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="框在顶部">提示框</a>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 加入 -->
+    <div class="modal fade" id="join" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title" id="modal-label">蓝火文化</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="Public/Home/images/top.jpg" >
+                    <h3><strong>欢迎加入蓝火大家庭！</strong></h3>
+                    <h5>有意请发送相关个人资料至87377708@163.com</h5>
+
+                    <volist name="join_data" id="jo">
+                        <h4><strong>{$jo.title}</strong></h4>
+                        {$jo.content}
+                    </volist>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--名片-->
+<div class="modal fade bs-mp-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">蓝火名片</h4>
+            </div>
+            <div class="modal-body">
+                
+    <div class="row" id="summary-container">
+        <div class="col-md-6">
+            <img class="img" src="Public/Home/images/1-1.jpg" alt="chrome">
+        </div>
+        <div class="col-md-6">
+            <img class="img" src="Public/Home/images/1-2.jpg" alt="firefox">
+        </div>
+    </div>
+
+    <div class="row" id="summary-container">
+        <div class="col-md-6">
+             <img class="img" src="Public/Home/images/1-3.jpg" alt="safari">
+        </div>
+        <div class="col-md-6">
+            <img class="img" src="Public/Home/images/1-4.jpg" alt="chrome">
+        </div>
+    </div>
+    <div class="row" id="summary-container">
+        <div class="col-md-6">
+            <img class="img" src="Public/Home/images/1-5.jpg" alt="firefox">
+        </div>
+        <div class="col-md-6">
+             <img class="img" src="Public/Home/images/1-6.jpg" alt="safari">
+        </div>
+    </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--新闻-->
+<div class="modal fade bs-news-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">新闻热报</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel-group" id="news">
+
+                    <volist name="news_data" id="vo">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4 class="text-primary"><a data-toggle="collapse" data-parent="#news" href="#news{$vo.id}"><strong>{$vo.title}</strong></a></h4>
+                            </div>
+                            <div id="news{$vo.id}" class="panel-collapse collapse">
+                                <div class="panel-body"><p>{$vo.content}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </volist>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <!-- <button type="button" class="btn btn-primary">保存</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--案例-->
+<div class="modal fade bs-case-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">蓝火案例</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel-group" id="accordion">
+
+                    <volist name="case_data" id="co">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#case{$co.id}">{$co.category}</a></h4>
+                            </div>
+                            <div id="case{$co.id}" class="panel-collapse collapse">
+
+                                <div class="panel-body">
+                                    <div class="row" id="summary-container">
+
+                                        <switch name="co.cid">
+
+                                            <case value="1" break="1">
+                                                <volist name="cases_data1" id="cs1">
+
+                                                    <div class="col-md-3">
+                                                        <a href="__URL__/cases/id/{$cs1.id}" target="_blank"><img src="__ROOT__{$cs1.logo|get_cover='path'}"/></a>
+                                                    </div>
+
+                                                </volist>
+                                            </case>
+
+                                            <case value="2">
+                                                <volist name="cases_data2" id="cs2">
+
+                                                    <div class="col-md-3">
+                                                        <a href="__URL__/cases/id/{$cs2.id}" target="_blank"><img src="__ROOT__{$cs2.logo|get_cover='path'}"/></a>
+                                                    </div>
+
+                                                </volist>
+                                            </case>
+
+                                            <case value="3">
+                                                <volist name="cases_data3" id="cs3">
+
+                                                    <div class="col-md-3">
+                                                        <a href="__URL__/cases/id/{$cs3.id}" target="_blank"><img src="__ROOT__{$cs3.logo|get_cover='path'}"/></a>
+                                                    </div>
+
+                                                </volist>
+                                            </case>
+
+
+                                            <case value="4">
+                                                <volist name="cases_data4" id="cs4">
+
+                                                    <div class="col-md-3">
+                                                        <a href="__URL__/cases/id/{$cs4.id}" target="_blank"><img src="__ROOT__{$cs4.logo|get_cover='path'}"/></a>
+                                                    </div>
+
+                                                </volist>
+                                            </case>
+
+
+                                            <case value="5">
+                                                <volist name="cases_data5" id="cs5">
+
+                                                    <div class="col-md-3">
+                                                        <a href="__URL__/cases/id/{$cs5.id}" target="_blank"><img src="__ROOT__{$cs5.logo|get_cover='path'}"/></a>
+                                                    </div>
+
+                                                </volist>
+                                            </case>
+
+
+                                            <case value="6">
+                                                <volist name="cases_data6" id="cs6">
+
+                                                    <div class="col-md-3">
+                                                        <a href="__URL__/cases/id/{$cs6.id}" target="_blank"><img src="__ROOT__{$cs6.logo|get_cover='path'}"/></a>
+                                                    </div>
+
+                                                </volist>
+                                            </case>
+
+                                        </switch>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </volist>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <!-- <button type="button" class="btn btn-primary">保存</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <p class="pull-right"><a href="#top" class="btn btn-default">回到顶部</a></p>
+
+        <p>&copy; 2014 广州市蓝火文化传播有限公司</p>
+    </footer>
+
+</div>
+
+<script src="Public/Home/js/jquery-1.11.1.min.js"></script>
+<script src="Public/Home/js/bootstrap.min.js"></script>
+
+<script>
+$(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</body>
+</html>

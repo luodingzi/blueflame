@@ -1,0 +1,18 @@
+[ 2016-01-23T11:57:37+08:00 ] 121.42.0.39 /blueflame/install/svinfo.php?phpinfo=true
+ERR: 无法加载控制器:Svinfo.php
+
+[ 2016-01-23T22:13:49+08:00 ] 121.42.0.19 /admin/ecshopfiles.md5
+ERR: 无法加载控制器:Ecshopfiles.md5
+
+[ 2016-01-23T22:13:50+08:00 ] 121.42.0.19 /admin/help/zh_cn/database.xml
+ERR: 无法加载控制器:Help
+
+[ 2016-01-23T22:14:06+08:00 ] 121.42.0.19 /Admin/Images/southidc.css
+ERR: 无法加载控制器:Images
+
+[ 2016-01-23T22:14:09+08:00 ] 121.42.0.19 /Admin/Include/version.xml
+ERR: 无法加载控制器:Include
+
+[ 2016-01-23T22:14:11+08:00 ] 121.42.0.19 /install/style.css
+ERR: 无法加载控制器:Style.css
+

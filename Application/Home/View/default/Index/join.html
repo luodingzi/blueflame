@@ -1,0 +1,31 @@
+<extend name="Base/common"/>
+
+<block name="header">
+	<div class="container join">
+    <h3 class="txt"><strong>欢迎加入蓝火大家庭！</strong></h3>
+    <h4 class="txt">有意请发送相关个人资料至<a href="mailto:64115838@qq.com">64115838@qq.com</a></h4>
+    <div class="row">
+
+
+
+                     <div class="panel-group join" id="join">
+                        <volist name="join" id="jo">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#join" href="#join{$jo.id}">{$jo.title}</a></h4>
+                                </div>
+                                <div id="join{$jo.id}" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row" id="summary-container">
+                                        {$jo.content}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </volist>
+                    </div>
+    </div>
+
+</div>
+
+</block>

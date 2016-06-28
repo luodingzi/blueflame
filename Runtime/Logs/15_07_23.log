@@ -1,0 +1,28 @@
+[ 2015-07-23T16:33:41+08:00 ] 14.147.94.13 /blueflame/index.php?s=/home/index/content/id/1.html
+ERR: 1146:Table 'jie.blue_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_content`
+ERR: 1146:Table 'jie.blue_content' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_content` WHERE ( `id` = '1' ) LIMIT 1  
+
+[ 2015-07-23T16:33:44+08:00 ] 14.147.94.13 /blueflame/index.php?s=/home/index/content/id/2.html
+ERR: 1146:Table 'jie.blue_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blue_content`
+ERR: 1146:Table 'jie.blue_content' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `blue_content` WHERE ( `id` = '2' ) LIMIT 1  
+
+[ 2015-07-23T16:34:07+08:00 ] 14.147.94.13 /blueflame/index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2015-07-23T16:36:50+08:00 ] 14.147.94.13 /blueflame/index.php?s=/admin/think/lists/model/content.html
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT ``,`id` FROM `blue_content` ORDER BY id DESC LIMIT 0,10  
+
+[ 2015-07-23T16:37:43+08:00 ] 14.147.94.13 /blueflame/index.php?s=/admin/think/lists/model/content.html
+ERR: 1054:Unknown column '' in 'field list'
+ [ SQL语句 ] : SELECT ``,`id` FROM `blue_content` ORDER BY id DESC LIMIT 0,10  
+
+[ 2015-07-23T20:54:50+08:00 ] 183.5.249.235 /blueflame/index.php?s=/home/index/message
+ERR: 1048:Column 'sex' cannot be null
+ [ SQL语句 ] : INSERT INTO `blue_message` (`company`,`username`,`sex`,`phone`,`email`,`content`) VALUES ('','',null,'','','')
+

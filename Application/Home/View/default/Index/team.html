@@ -1,0 +1,31 @@
+<extend name="Base/common"/>
+
+<block name="header">
+<style type="text/css">
+
+</style>
+
+	<div class="container teams">
+    <h3 class="txt">精英团队</h3>
+    <div class="row">
+
+        <volist name="list" id="to">
+        <div class="col-xs-6 col-md-3">
+            <div class="team">
+                            <div class="caption">
+                        <h5>{$to.info}</h5>
+                    </div>
+                <a href="__URL__/person/id/{$to.id}.html" >
+                <img class="img-rounded" src="__ROOT__{$to.head_img|get_cover='path'}"  alt="{$to.info}">
+                </a>
+  
+            </div>
+        </div>
+        </volist>
+
+    </div>
+
+    <div class="page">{$page}</div> 
+</div>
+
+</block>

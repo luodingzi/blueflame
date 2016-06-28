@@ -1,0 +1,4 @@
+[ 2015-12-15T17:17:09+08:00 ] 119.130.85.61 /index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+

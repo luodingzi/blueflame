@@ -1,0 +1,23 @@
+[ 2016-02-18T15:30:27+08:00 ] 119.130.84.89 /index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2016-02-18T15:31:33+08:00 ] 119.130.84.89 /index.php?s=/admin/index/index.html
+ERR: 1146:Table 'jie.blue_document' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blue_document` LIMIT 1  
+
+[ 2016-02-18T21:53:02+08:00 ] 121.42.0.38 /admin/ecshopfiles.md5
+ERR: 无法加载控制器:Ecshopfiles.md5
+
+[ 2016-02-18T21:53:02+08:00 ] 121.42.0.38 /admin/help/zh_cn/database.xml
+ERR: 无法加载控制器:Help
+
+[ 2016-02-18T21:53:28+08:00 ] 121.42.0.38 /Admin/Images/southidc.css
+ERR: 无法加载控制器:Images
+
+[ 2016-02-18T21:53:31+08:00 ] 121.42.0.38 /Admin/Include/version.xml
+ERR: 无法加载控制器:Include
+
+[ 2016-02-18T21:53:33+08:00 ] 121.42.0.38 /install/style.css
+ERR: 无法加载控制器:Style.css
+
